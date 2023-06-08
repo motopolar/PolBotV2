@@ -7,7 +7,7 @@ if (!args[0]) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝚄𝚂𝙾 𝙳𝙴 �
 let [emoji1, emoji2] = text.split`&`
 let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
 for (let res of anu.results) {
-let stiker = await sticker(false, res.url, global.packname, global.author)
+let stiker = await sticker(false, res.url, "PolBot", "Polar")
 conn.sendFile(m.chat, stiker, null, { asSticker: true })
 }}
 handler.help = ['emojimix'].map(v => v + ' emot1|emot2>')
