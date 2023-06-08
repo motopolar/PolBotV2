@@ -1,9 +1,9 @@
 {
-  "name": "HATSUNE-MIKU-ULTRA",
-  "website": "https://youtube.com/@hades_bot2391",
-  "description": "Super Bot WhatsApp",
-  "repository": "https://github.com/OFC-YOVANI/HATSUNE-MIKU-ULTRA.git",
-  "logo": "https://i.imgur.com/AmzlKVi.jpeg",
+  "name": "PolBot",
+  "website": "https://angelsrosalia.netlify.app/",
+  "description": "PolBot Whatsapp",
+  "repository": "https://github.com/motopolar/PolBotV2.git",
+  "logo": "https://imgur.com/I4d0x3P",
   "success_url": "",
   "keywords": [
     "nodejs",
