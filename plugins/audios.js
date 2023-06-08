@@ -1,27 +1,25 @@
 let handler = m => m
+
 handler.all = async function (m) {
-let chat = global.db.data.chats[m.chat]
+  let chat = global.db.data.chats[m.chat]
 
-if (/^hola|Menu$/i.test(m.text) && chat.audios && !chat.isBanned) {
-let vn = './src/Hola.mp3'
-this.sendPresenceUpdate('recording', m.chat)   
-this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}   
+  if ((/^hola$/i.test(m.text) || /^menu$/i.test(m.text)) && chat.audios && !chat.isBanned) {
+    return false; // Evitar enviar audio
+  }
 
-if (!chat.isBanned && chat.audios && m.text.match(/(canta miku)/gi)) {
-let vn = './src/canta.mp3'
-this.sendPresenceUpdate('recording', m.chat)   
-this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
-    
-if (!chat.isBanned && chat.audios && m.text.match(/(canta miku2)/gi)) {    
-let vn = './src/canta2.mp3'
-this.sendPresenceUpdate('recording', m.chat)   
-this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+  if (!chat.isBanned && chat.audios && m.text.match(/(canta miku)/gi)) {
+    return false; // Evitar enviar audio
+  }
 
-if (!chat.isBanned && chat.audios && m.text.match(/(descargasmuci|Descargasmuci)/gi)) {    
-let vn = './src/miku.mp3'
-this.sendPresenceUpdate('recording', m.chat)   
-this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+  if (!chat.isBanned && chat.audios && m.text.match(/(canta miku2)/gi)) {
+    return false; // Evitar enviar audio
+  }
 
-return !0 }
+  if (!chat.isBanned && chat.audios && m.text.match(/(descargasmuci|Descargasmuci)/gi)) {
+    return false; // Evitar enviar audio
+  }
+
+  return true;
+}
+
 export default handler
-
