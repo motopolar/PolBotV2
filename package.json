@@ -1,5 +1,5 @@
 {
-    "name": "HATSUNE-MIKU-ULTRA",
+    "name": "PolBot",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -14,13 +14,13 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/OFC-YOVANI/HATSUNE-MIKU-ULTRA",
+    "homepage": "https://github.com/motopolar/PolBotV2",
     "author": {
-        "name": "OFC-YOVANI"
+        "name": "PolBot"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/OFC-YOVANI/HATSUNE-MIKU-ULTRA.git"
+        "url": "git+https://github.com/motopolar/PolBotV2.git"
     },
     "bugs": {
         "url": "https://github.com/OFC-YOVANI/HATSUNE-MIKU-ULTRA/issues"
