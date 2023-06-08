@@ -1,10 +1,10 @@
 import axios from 'axios'
 import cheerio from 'cheerio'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} luisitocomunica*`
+if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝚄𝙽 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} rosalia.vt*`
 let res = await igstalk(args[0].replace(/^@/, ''))
 let json = JSON.parse(JSON.stringify(res))
-let iggs = `╭━〘𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰〙━⊷ 
+let iggs = `╭━〘𝐏𝐨𝐥𝐁𝐨𝐭〙━⊷ 
 ┃ ⛥│◦➛▢ *Username:* ${json.username}
 ┃ ⛥│◦➛▢ *Nickname:* ${json.fullName}
 ┃ ⛥│◦➛▢ *Followers:* ${json.followers}
