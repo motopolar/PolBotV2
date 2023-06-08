@@ -4,15 +4,15 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['5212411719888', '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸', true],
-  ['5212412377467', '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸', true],
-  ['5212411347465', '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸', true],
-  ['5212412377467', '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸', true],
+  ['5216631621048', 'Pol', true],
+  ['525536712552', 'Dillan', true],
+  ['5216642320237', 'Skipper', true],
+  ['525526771847', 'Emi', true],
 ]
-global.suittag =['5212412477467']
+global.suittag =['13658004458']
 global.mods = []
-global.prems = ['5212412474767'], 
-global.prems = ['5212412377467'],
+global.prems = ['13658004458'], 
+global.prems = ['13658004458'],
 global.APIs = { 
 
   amel: 'https://melcanz.com',
@@ -63,21 +63,21 @@ global.APIKeys = {
   'https://anabotofc.herokuapp.com/': 'AnaBot'
 }
 
-global.packname = '𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰 '
-global.author = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍'
+global.packname = '𝐏𝐨𝐥𝐁𝐨𝐭'
+global.author = 'Polar'
 global.vs = '1.10.90'
 global.version = vs
-global.gt = '⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ﹏✍'
+global.gt = 'Polar'
 global.hadesbot = gt
-global.yt = 'https://youtu.be/aPu9wQi-z8U'
+global.yt = 'https://www.youtube.com/channel/UCQt9awGIFZeldFsATZNeJag'
 global.youtube = yt
-global.ig = 'https://www.instagram'
+global.ig = 'https://www.instagram/lovurosi'
 global.hadesig = ig
-global.md = 'https://github.com/OFC-YOVANI/HATSUNE-MIKU-ULTRA.git'
+global.md = 'https://github.com/motopolar/PolBotV2.git'
 global.botxdf = md
-global.nn = 'https://chat.whatsapp.com/KlAYxPxLAkSGOyZxeXXZkt'
+global.nn = 'https://chat.whatsapp.com/HQi4vOX62V39VYYaOif0uM'
 global.nngrupo = nn
-global.nnn = 'https://chat.whatsapp.com/DDm7HC6e5MF9qcdLqB22RQ'
+global.nnn = 'https://chat.whatsapp.com/HQi4vOX62V39VYYaOif0uM'
 global.nnngrupo = nnn
 global.paypal = 'https://pay'
 global.donar = paypal
@@ -96,8 +96,8 @@ global.envio = eeg
 global.eg = '*🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*'
 global.exito = eg
 
-global.wm = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍\n⫷᭄𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰 ✍'
-global.igfg = '⫷᭄𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰 ✍'
+global.wm = '𝐏𝐨𝐥𝐁𝐨𝐭\nPolar'
+global.igfg = '𝐏𝐨𝐥𝐁𝐨𝐭'
 global.wait = '⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱'
 
 global.imagen1 = fs.readFileSync('./src/Menu2.jpg')
