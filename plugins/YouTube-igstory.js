@@ -4,7 +4,7 @@ await m.reply(global.wait)
 const res = await fetch(`https://api.lolhuman.xyz/api/igstory/${args[0]}?apikey=${lolkeysapi}`)
 var anu = await res.json()
 var anuku = anu.result
-if (anuku == '') return m.reply('*_Hay de dos, escribiste mal el nombre de usuario o el usuario no tiene historias._*')  
+if (anuku == '') return m.reply('_Hay de dos, escribiste mal el nombre de usuario o el usuario no tiene historias. O ya sé, el usuario tiene su cuenta en privado. No sé, PolBot no es adivino, pero tal vez acerté una, ¿no?_')  
 for (var i of anuku) {
 let res = await axios.head(i)
 let mime = res.headers['content-type']
