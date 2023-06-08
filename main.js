@@ -79,7 +79,7 @@ getMessage: async (key) => ( opts.store.loadMessage(/** @type {string} */(key.re
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['HATSUNE-MIKU-YLTRA','Safari','9.7.0']
+browser: ['MOTOMAMI','Safari','9.7.0']
 }
 global.conn = makeWASocket(connectionOptions)
 conn.isInit = false
