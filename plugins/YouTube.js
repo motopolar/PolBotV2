@@ -55,7 +55,7 @@ let caption = `╭─────────────◆
 ┃✯│▢/ᴛɪᴋᴛᴏᴋsᴛᴀʟᴋ➟ᴜsᴇʀɴᴀᴍᴇ
 ┃✯╰───────────◆
 ╰━━━━━━━━━━━──⊷
-ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ
+ᴏᴡɴᴇʀ:Polar
 ɴᴜᴍᴇʀᴏ:Wa.me/5212412377467`.trim()
 conn.sendFile(m.chat, img, 'cat.jpg', caption, m)
 } catch (e) {
