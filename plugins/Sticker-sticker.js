@@ -16,7 +16,7 @@ if (!img) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰
 
 let out
 try {
-stiker = await sticker(img, false, global.packname, global.author)
+stiker = await sticker(img, false,"PolBot", "Polar")
 } catch (e) {
 console.error(e)
 } finally {
