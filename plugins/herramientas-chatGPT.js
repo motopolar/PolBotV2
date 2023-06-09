@@ -1,6 +1,7 @@
+
 const fetch = require('node-fetch');
 
-// Coloca tu clave de API aquí
+// Coloca tu clave de API de LolHuman aquí
 const lolkeysapi = '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';
 
 let handler = async (m, { text, usedPrefix, command }) => {
@@ -19,5 +20,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
 handler.command = ['openai', 'chatgpt', 'ia', 'robot'];
 
 module.exports = handler;
+
+
 
 
